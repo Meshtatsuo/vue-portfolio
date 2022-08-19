@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
@@ -15,6 +16,8 @@ import HeaderRotation from "./components/HeaderRotation.vue";
     <h1>I am a :</h1>
     <h1><HeaderRotation /></h1>
   </div>
+
+  <AboutMe />
 </template>
 
 <style>
