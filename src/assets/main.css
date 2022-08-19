@@ -1,0 +1,11 @@
+@import "./base.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
+
+#app {
+  background-image: url("./carbon3.png");
+  background-repeat: repeat;
+  min-height: 100vw;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
