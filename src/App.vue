@@ -3,7 +3,7 @@
 import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
-import Timeline from "./components/Timeline.vue";
+import TimeLine from "./components/TimeLine.vue";
 </script>
 
 <template>
@@ -19,8 +19,7 @@ import Timeline from "./components/Timeline.vue";
   </div>
 
   <AboutMe />
-
-  <Timeline />
+  test<TimeLine />
 </template>
 
 <style>

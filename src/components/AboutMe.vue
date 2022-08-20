@@ -36,8 +36,9 @@
           id="resume-link"
           href="/static/media/DMisasiResume_Web.bf28c080d218ed8afd3a.pdf"
           download=""
-          ><h4>Download my Resume</h4></a
         >
+          <h4>Download my Resume</h4>
+        </a>
       </div>
       <img
         id="about-img"
@@ -46,6 +47,7 @@
       />
     </div>
   </section>
+  ;
 </template>
 
 <style>
@@ -80,6 +82,6 @@ section h2 {
 #about-img {
   flex: 1 50%;
   max-width: 50%;
-  padding: 2.5%;
+  box-shadow: -1px 1px 25px black;
 }
 </style>
