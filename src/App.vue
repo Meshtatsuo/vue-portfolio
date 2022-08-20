@@ -4,9 +4,11 @@ import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
 import TimeLine from "./components/TimeLine.vue";
+import HexGrid from "./components/HexGrid.vue";
 </script>
 
 <template>
+  <div id="background"></div>
   <NavBar id="nav" />
   <img
     id="dblogo"
@@ -19,7 +21,8 @@ import TimeLine from "./components/TimeLine.vue";
   </div>
 
   <AboutMe />
-  test<TimeLine />
+
+  <HexGrid />
 </template>
 
 <style>
@@ -29,13 +32,13 @@ import TimeLine from "./components/TimeLine.vue";
 }
 
 #nav {
-  z-index: 1;
+  z-index: 2;
 }
 
 #dblogo {
   max-width: 75vw;
   transform: translateX(-25%) translateY(-15%);
-  z-index: 0;
+  z-index: 1;
 }
 
 #title {
