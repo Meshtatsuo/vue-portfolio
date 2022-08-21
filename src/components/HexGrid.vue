@@ -14,17 +14,92 @@ export default {
   <div class="main">
     <div class="container">
       <svg width="400" height="110">
-        <rect
-          width="300"
-          height="300"
-          style="fill: {{fillColor}}; stroke-width: 3; stroke: rgb(0, 0, 0)"
-        />
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="low" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="none" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="none" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="low" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="low" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="none" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="low" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="med" width="300" height="300" />
+      </svg>
+      <svg width="400" height="110">
+        <rect class="high" width="300" height="300" />
       </svg>
     </div>
   </div>
 </template>
 
 <style>
+.none {
+  fill: rgba(255, 255, 255, 0.25);
+}
+.low {
+  fill: rgba(0, 138, 235, 0.2);
+}
+.med {
+  fill: rgba(0, 138, 235, 0.4);
+}
+.high {
+  fill: rgba(0, 138, 235, 0.6);
+}
+
 .main {
   display: flex;
   width: 100vw;
