@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <section id="about">
     <h2>About Me</h2>
-    <div id="about">
+    <div id="about-content">
       <div id="about-text">
         <p>
           After graduating college in 2016, I worked various odd jobs while
@@ -56,7 +56,7 @@ section h2 {
   font-weight: 200;
   color: white;
 }
-#about {
+#about-content {
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
