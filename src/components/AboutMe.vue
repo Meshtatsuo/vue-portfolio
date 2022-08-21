@@ -51,9 +51,6 @@
 </template>
 
 <style scoped>
-* {
-  z-index: 1;
-}
 section h2 {
   text-align: center;
   font-size: 42px;

@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
 import TimeLine from "./components/TimeLine.vue";
-import HexGrid from "./components/HexGrid.vue";
+import PortfolioSection from "./components/PortfolioSection.vue";
 </script>
 
 <template>
@@ -22,7 +22,7 @@ import HexGrid from "./components/HexGrid.vue";
 
   <AboutMe />
 
-  <HexGrid />
+  <PortfolioSection />
 </template>
 
 <style>

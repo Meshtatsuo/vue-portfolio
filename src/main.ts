@@ -1,13 +1,9 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import PrimeVue from "primevue/config";
-import Timeline from "primevue/timeline";
+import VueSplide from "@splidejs/vue-splide";
 
 import "./assets/main.css";
 
 const app = createApp(App);
-
-app.use(PrimeVue);
-app.component("timeLine", Timeline);
-
+app.use(VueSplide);
 app.mount("#app");
