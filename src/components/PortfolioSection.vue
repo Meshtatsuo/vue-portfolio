@@ -1,6 +1,16 @@
 <script>
 // Default theme
 import "@splidejs/vue-splide/css";
+
+function onMove(e) {
+  console.log("Moved!");
+}
+
+export default {
+  data() {
+    return { onMove };
+  },
+};
 </script>
 
 <template>
@@ -15,9 +25,14 @@ import "@splidejs/vue-splide/css";
             direction: 'ttb',
           }"
           aria-label="My Favorite Images"
+          @splide:move="onMove"
         >
           <SplideSlide>
-            <img src="../assets/portfolio-images/fixture.png" alt="Sample 1" />
+            <img
+              src="../assets/portfolio-images/fixture.png"
+              alt="Sample 1"
+              id="1"
+            />
           </SplideSlide>
           <SplideSlide>
             <img
