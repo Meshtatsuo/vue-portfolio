@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "git-activity-stats": "^0.0.3",
     "i": "^0.3.7",
     "npm": "^8.18.0",
     "primevue": "^3.16.1",

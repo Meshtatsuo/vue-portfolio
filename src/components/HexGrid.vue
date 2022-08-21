@@ -1,4 +1,15 @@
 <script>
+const url = `https://api.github.com/users/defunkt`;
+
+fetch(url, (error, response) => {
+  console.log("Fetching...");
+  if (error) {
+    console.log(error);
+  } else {
+    console.log(response);
+  }
+});
+
 const alpha = ".2";
 const fillColor = `rgba(0,138,235,${alpha}})`;
 export default {
