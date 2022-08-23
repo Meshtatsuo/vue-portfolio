@@ -1,6 +1,8 @@
 <script>
 // Default theme
 import "@splidejs/vue-splide/css";
+import { portfolioItems } from "../assets/portfolio-items";
+console.log(portfolioItems);
 
 function onMove(e) {
   console.log("Moved!");
