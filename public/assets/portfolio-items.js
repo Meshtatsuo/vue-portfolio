@@ -1,7 +1,7 @@
 export const portfolioItems = [
   {
     title: "FIXTURE",
-    image: "../assets/portfolio-images/fixture.png",
+    image: "../assets/portfolio-images/llama-player.png",
     techList: "MongoDB, ExpressJS, ReactJS, NodeJS, Stripe",
     description: `FIXTURE was my capstone project for my bootcamp. FIXTURE is a digital sales platform that allows users to create accounts, upload their own products to sell, and purchase products uploaded by other users.
       
@@ -21,7 +21,7 @@ export const portfolioItems = [
   },
   {
     title: "National Park Database",
-    image: "../assets/portfolio-images/national-park.png",
+    image: "image/source",
     techList: "Grist, ExpressJS, ReactJS, NodeJS, Wikipedia API",
     description:
       "The National Park Database is a hobby development project of mine utilizing a Grist document (GetGrist.com). Development so far includes pulling data from the Grist document",
@@ -30,10 +30,10 @@ export const portfolioItems = [
   },
   {
     title: "Example 4",
-    image: "../assets/portfolio-images/medician-blog.png",
-    techList: "NodeJS, ExpressJS, MySQL, Handlebars",
+    image: "image/source",
+    techList: "MongoDB, ExpressJS, ReactJS, NodeJS",
     description:
-      "The Medician Blog is a mockup for a basic blogsite that allows users to make posts and comment on each other's posts.",
+      "This is an example description of a project. I did this because I needed to test this.",
     repo: "https://github.com/Meshtatsuo/Fixture",
     deployment: "https://peaceful-fjord-92696.herokuapp.com/",
   },

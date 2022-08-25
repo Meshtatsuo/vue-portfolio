@@ -3,7 +3,6 @@
 import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
-import TimeLine from "./components/TimeLine.vue";
 import PortfolioSection from "./components/PortfolioSection.vue";
 </script>
 
