@@ -39,13 +39,19 @@ export default {
             >
               <div class="flex-1" id="carousel-item">
                 <a :href="item.repo" target="_blank">
-                  <img :src="item.image" :alt="item.title" id="1" />
+                  <div id="image-overlay">
+                    <h1>{{ item.title }}</h1>
+                    <h4>{{ item.techList }}</h4>
+                    <p></p>
+                    <img :src="item.image" :alt="item.title" id="1" />
+                  </div>
                 </a>
               </div>
-              <div class="flex-1" id="carousel-item">
-                <h1>{{ item.title }}</h1>
-                <h4>{{ item.techList }}</h4>
+              <div class="flex-1 content-text" id="carousel-item">
                 <p>{{ item.description }}</p>
+                <a :href="item.repo" target="_blank"
+                  ><p>VIEW REPOSITORY ON GITHUB</p></a
+                >
               </div>
             </SplideSlide>
           </Splide>
@@ -65,8 +71,65 @@ export default {
   display: flex;
 }
 
+.content-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.content-text a {
+  position: absolute;
+  top: 90%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+}
+
+.content-text a:hover {
+  color: #eee;
+}
+
 .flex-1 {
   flex: 1;
+}
+
+#image-overlay {
+  position: relative;
+}
+
+#image-overlay h1 {
+  position: absolute;
+  color: white;
+  margin: 1% 5%;
+  left: 0;
+  top: 75%;
+  z-index: 3;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#image-overlay h4 {
+  position: absolute;
+  color: white;
+  margin: 1% 5%;
+  left: 0;
+  top: 88%;
+  z-index: 3;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image-overlay p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
 
 #portfolio-content {

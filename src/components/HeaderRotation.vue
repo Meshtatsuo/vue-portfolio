@@ -7,7 +7,7 @@ setInterval(() => {
   if (state.value === "full-stack") {
     state.value = "front-end";
   } else if (state.value === "front-end") {
-    state.value = "audio-engineer";
+    state.value = "sound-engineer";
   } else {
     state.value = "full-stack";
   }
@@ -26,7 +26,7 @@ export default {
   <Transition name="slide-up">
     <span v-if="state === 'full-stack'">Full Stack Developer</span>
     <span v-else-if="state === 'front-end'">Front End Designer</span>
-    <span v-else-if="state === 'audio-engineer'">Audio Engineer</span>
+    <span v-else-if="state === 'sound-engineer'">Sound Engineer</span>
   </Transition>
 </template>
 

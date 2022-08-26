@@ -29,7 +29,7 @@ export const portfolioItems = [
     deployment: "https://peaceful-fjord-92696.herokuapp.com/",
   },
   {
-    title: "Example 4",
+    title: "The Medician Blog",
     image: "../assets/portfolio-images/medician-blog.png",
     techList: "NodeJS, ExpressJS, MySQL, Handlebars",
     description:
