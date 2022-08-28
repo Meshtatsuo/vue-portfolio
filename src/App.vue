@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.vue";
 import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
 import PortfolioSection from "./components/PortfolioSection.vue";
+import ContactMe from "./components/ContactMe.vue";
 </script>
 
 <template>
@@ -22,6 +23,8 @@ import PortfolioSection from "./components/PortfolioSection.vue";
   <AboutMe />
 
   <PortfolioSection />
+
+  <ContactMe />
 </template>
 
 <style>

@@ -67,6 +67,9 @@ export default {
 </template>
 
 <style scoped>
+h2 {
+  margin: 2%;
+}
 .flex {
   display: flex;
 }
@@ -109,6 +112,7 @@ export default {
   z-index: 3;
   font-size: 36px;
   font-weight: bold;
+  text-shadow: 1px 1px 3px black;
 }
 
 #image-overlay h4 {
@@ -120,6 +124,7 @@ export default {
   z-index: 3;
   font-size: 18px;
   font-weight: bold;
+  text-shadow: 1px 1px 3px black;
 }
 
 #image-overlay p {
@@ -136,6 +141,7 @@ export default {
   display: flex;
   justify-items: center;
   justify-content: center;
+  padding: 0 10%;
 }
 
 #carousel-item {
@@ -148,7 +154,7 @@ export default {
 .port-section {
   flex: 1;
   margin: auto;
-  padding: 5%;
+  padding: 0 2%;
 }
 
 img {
