@@ -3,9 +3,7 @@ export const portfolioItems = [
     title: "FIXTURE",
     image: "../assets/portfolio-images/fixture.png",
     techList: "MongoDB, ExpressJS, ReactJS, NodeJS, Stripe",
-    description: `FIXTURE is a digital sales platform that allows users to create accounts, upload their own products to sell, and purchase products uploaded by other users.
-    
-    I was the project manager for FIXTURE. I coordinated with my group to assign responsibilities, created and managed the GitHub repo including project and issue tracking, and I also took a major role in the front end development. I also worked on the back-end near the end of MVP development to fix bugs and implement additional necessary features.
+    description: `    I was the project manager for FIXTURE. I coordinated with my group to assign responsibilities, created and managed the GitHub repo including project and issue tracking, and I also took a major role in the front end development. I also worked on the back-end near the end of MVP development to fix bugs and implement additional necessary features.
       `,
     repo: "https://github.com/Meshtatsuo/Fixture",
     deployment: "https://peaceful-fjord-92696.herokuapp.com/",

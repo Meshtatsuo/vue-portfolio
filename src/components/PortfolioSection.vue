@@ -23,10 +23,12 @@ export default {
         <div v-if="portfolioItems">
           <Splide
             :options="{
-              type: 'loop',
-              height: '400px',
+              type: 'fade',
+              height: '25em',
               direction: 'ttb',
-              arrows: 'false',
+              autoplay: 'true',
+              interval: '15000',
+              gap: '0',
             }"
             aria-label="My Favorite Images"
             @splide:move="onMove"
@@ -54,6 +56,9 @@ export default {
                 >
               </div>
             </SplideSlide>
+            <div class="splide__progress">
+              <div class="splide__progress__bar" />
+            </div>
           </Splide>
         </div>
         <div v-else>
@@ -67,6 +72,11 @@ export default {
 </template>
 
 <style scoped>
+.splide__progress {
+  margin: 1%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 h2 {
   margin: 2%;
 }
@@ -82,7 +92,7 @@ h2 {
 
 .content-text a {
   position: absolute;
-  top: 90%;
+  top: 80%;
   font-size: 20px;
   font-weight: bold;
   color: white;
