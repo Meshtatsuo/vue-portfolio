@@ -14,6 +14,7 @@
     "git-activity-stats": "^0.0.3",
     "i": "^0.3.7",
     "npm": "^8.18.0",
+    "oh-vue-icons": "^1.0.0-rc3",
     "primevue": "^3.16.1",
     "timeline-vuejs": "^1.1.7",
     "vue": "^3.2.37"

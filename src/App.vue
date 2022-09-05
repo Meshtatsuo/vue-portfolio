@@ -49,7 +49,7 @@ import ContactMe from "./components/ContactMe.vue";
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 45%;
   width: 60vw;
 }
