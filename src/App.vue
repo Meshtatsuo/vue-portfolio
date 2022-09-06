@@ -5,6 +5,7 @@ import HeaderRotation from "./components/HeaderRotation.vue";
 import AboutMe from "./components/AboutMe.vue";
 import PortfolioSection from "./components/PortfolioSection.vue";
 import ContactMe from "./components/ContactMe.vue";
+import TimeLine from "./components/TimeLine.vue";
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import ContactMe from "./components/ContactMe.vue";
   </div>
 
   <AboutMe />
+
+  <TimeLine />
 
   <PortfolioSection />
 

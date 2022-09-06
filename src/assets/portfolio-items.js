@@ -36,3 +36,70 @@ export const portfolioItems = [
     deployment: "https://peaceful-fjord-92696.herokuapp.com/",
   },
 ];
+
+export const timelineItems = [
+  {
+    year: {
+      from: "2017",
+      to: "2018",
+    },
+    items: [
+      {
+        from: new Date(2017, 5, 22),
+        title: "Name",
+        showDayAndMonth: true,
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2017, 8),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2016, 11),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2018, 7, 19),
+        title: "Name",
+        showDayAndMonth: true,
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2016, 1),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2016, 6),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2013, 1),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2015, 1),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+      {
+        from: new Date(2012, 1),
+        title: "Name",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.",
+      },
+    ],
+  },
+];
